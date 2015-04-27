@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('webfontkit-20150211-152558/caviardreams-webfont.eot');
+    src: url('webfontkit-20150211-152558/caviardreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfontkit-20150211-152558/caviardreams-webfont.woff2') format('woff2'),
+         url('webfontkit-20150211-152558/caviardreams-webfont.woff') format('woff'),
+         url('webfontkit-20150211-152558/caviardreams-webfont.ttf') format('truetype'),
+         url('webfontkit-20150211-152558/caviardreams-webfont.svg#caviar_dreamsregular') format('svg');
+}		 
+
+*{
+	font-family: caviar_dreamsregular;
+}
+
+#liseret
+{
+	display: inline-block;
+	width: 7%;
+	height: 450px;
+	background: gray;
+	border-radius: 5px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#liseret {display: none;}
+}
+
+/* Section Corps */
+
+header 
+{
+	height: 150px;
+}
+
+#corps
+{
+	display: inline-block;
+	width: 89%;
+	vertical-align: top;
+}
+
+#experiences, #competences, #formation
+{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+#experiences {width: 30%;}
+#competences {width: 27%;}
+#formation {width: 26%;}
+
+@media all and (max-width:  1024px)
+{
+	#corps section
+	{
+		width: auto;
+		display: block;
+	}
+
+}
+
+body {
+	background-image: url("fond.jpg");
+	margin: 0;
+}
+
+h1 {
+	color: rgb(10,33,146);
+	text-align: center;
+}
+
+#citation {
+	font-style: italic;
+	text-align: center;
+	text-decoration: overline
+}
+
+h2 {
+	color: rgb(230,160,30);
+	border-bottom: 2px solid rgb(230,160,30);
+	border-right: 2px solid rgb(230,160,30);
+	padding-bottom: 10px;
+	text-shadow: 2px 2px 2px black;
+}
+strong{
+	font-weight: bold
+}
+
+a{
+	float: right;
+	box-shadow: 5px 5px 3px gray;
+}
